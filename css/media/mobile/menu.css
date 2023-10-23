@@ -1,0 +1,31 @@
+.menu {
+  width: 100%;
+  background-color: darkblue;
+}
+.menu nav {
+  width: inherit;
+}
+.menu nav ul {
+  width: inherit;
+  list-style: none;
+}
+.menu nav ul li {
+  width: inherit;
+  height: 40px;
+}
+.menu nav ul li a {
+  width: inherit;
+  height: inherit;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: 40px;
+  color: antiquewhite;
+  font-size: 12px;
+  font-weight: bold;
+  transition: 300ms;
+}
+.menu nav ul li a:hover{
+    background-color: plum;
+}
